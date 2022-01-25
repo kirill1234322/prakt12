@@ -31,6 +31,11 @@ namespace ConsoleApp1
             {
                 a = Convert.ToInt32(Console.ReadLine());
             }
+
+            if(r == 4)
+            {
+                Console.WriteLine(a-b);
+            }
         }
     }
 }
