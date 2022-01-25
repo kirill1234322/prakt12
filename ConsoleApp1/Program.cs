@@ -16,6 +16,11 @@ namespace ConsoleApp1
 
             int r = Convert.ToInt32(Console.ReadLine());
             int a = 0, b = 0;
+
+            if(r == 2)
+            {
+                b = Convert.ToInt32(Console.ReadLine());
+            }
         }
     }
 }
